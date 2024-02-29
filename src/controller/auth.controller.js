@@ -6,6 +6,7 @@ const genrateToken=(user)=>{
     console.log(process.env)
     return jwt.sign({user}, process.env.JWT_SECRET_KEY);
 }
+
 const register= async (req,res)=>{
     try {
         let user=await User.findOne({email:req.body.email})

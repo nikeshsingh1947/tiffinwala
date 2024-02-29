@@ -10,6 +10,7 @@ for(var i=0;i<10;i++){
         
     }
 }
+
 var my=["fortis contrruction in this ordination of there", "larvs is not the main function ", "if your main contridiction in this coplicated situation ",
 "retination is not the main function if you are not in the situation through out the larvs ", "wqrite to do the things in the situation life of the main "];
 for(var i=0;i<my.length;i++){

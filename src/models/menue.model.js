@@ -16,5 +16,6 @@ const menueSchema = mongoose.Schema(
     versionKey: false,
   }
 );
+
 const Menue = mongoose.model("menue", menueSchema);
 module.exports = Menue;

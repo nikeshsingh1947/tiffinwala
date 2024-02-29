@@ -19,6 +19,7 @@ const orderSchema = mongoose.Schema(
         deliveryStat:{type:Boolean, required:true},
         PaymentStat:{type:Boolean, required:true}
   },
+  
   {
     timestamps: true,
     versionKey: false,

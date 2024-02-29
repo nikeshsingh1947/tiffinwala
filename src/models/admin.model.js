@@ -12,6 +12,7 @@ const adminSchema = mongoose.Schema(
     }
   );
 
+  
   adminSchema.pre("save", function (next) {
     const hash = bcrypt.hashSync(this.password, 8);
     this.password = hash;
