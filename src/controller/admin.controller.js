@@ -7,6 +7,7 @@ const genrateToken=(admin)=>{
     return jwt.sign({admin}, process.env.JWT_SECRET_KEY);
 }
 
+
 const adminregister= async (req,res)=>{
     try {
         let admin=await Admin.findOne({email:req.body.email})
