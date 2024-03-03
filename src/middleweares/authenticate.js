@@ -7,6 +7,7 @@ const verifyToken = (token) => {
       if (err) return reject(err);
 
       return resolve(decoded);
+      
     });
   });
 };

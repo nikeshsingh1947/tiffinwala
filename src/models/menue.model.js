@@ -18,4 +18,5 @@ const menueSchema = mongoose.Schema(
 );
 
 const Menue = mongoose.model("menue", menueSchema);
+
 module.exports = Menue;

@@ -22,6 +22,7 @@ router.get('', async (req, res) => {
         .exec();
   
       return res.status(200).send(orders);
+      
     } catch (err) {
       return res.status(500).send({ message: err.message });
     }

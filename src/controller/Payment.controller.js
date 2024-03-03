@@ -24,6 +24,8 @@
 
 //   const body = razorpay_order_id + "|" + razorpay_payment_id;
 
+
+
 //   const expectedSignature = crypto
 //     .createHmac("sha256", process.env.RAZORPAY_APT_SECRET)
 //     .update(body.toString())
@@ -67,6 +69,7 @@ const checkout = async (req, res) => {
     console.log(order);
     res.status(200).json({
       success: true,
+      
       order,
     });
   });

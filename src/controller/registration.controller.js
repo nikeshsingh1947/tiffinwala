@@ -14,6 +14,7 @@ router.get("", authenticate, async (req, res) => {
   try {
     const registration = await Registration.find();
     return res.status(200).send(registration);
+    
   } catch (err) {
     return res.status(400).send({ message: err.message });
   }

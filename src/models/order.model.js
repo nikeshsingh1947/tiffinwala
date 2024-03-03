@@ -17,6 +17,7 @@ const orderSchema = mongoose.Schema(
         items: [orderItemSchema],
         subscription:[subscriptionSchema],
         deliveryStat:{type:Boolean, required:true},
+        
         PaymentStat:{type:Boolean, required:true}
   },
   

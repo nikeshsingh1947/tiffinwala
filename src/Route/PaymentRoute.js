@@ -21,6 +21,7 @@ const {
   paymentVerification,
 } = require("../controller/Payment.controller");
 
+
 router.post("/checkout", checkout);
 router.post("/paymentverification", paymentVerification);
 

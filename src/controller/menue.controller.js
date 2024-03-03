@@ -16,9 +16,11 @@ router.get("", async (req, res) => {
 router.post("", async (req, res) => {
   try {
     const menue = await Menue.create(req.body);
+
     return res.status(200).send(menue);
   } catch (err) {
     return res.status(500).send({ message: err.message });
+    
   }
 });
 
