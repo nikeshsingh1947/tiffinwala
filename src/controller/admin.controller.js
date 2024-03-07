@@ -4,6 +4,7 @@ require("dotenv").config()
 
 const genrateToken=(admin)=>{
     console.log(process.env)
+    
     return jwt.sign({admin}, process.env.JWT_SECRET_KEY);
 }
 

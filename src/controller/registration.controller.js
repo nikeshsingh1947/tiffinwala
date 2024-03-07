@@ -13,6 +13,7 @@ router.post("", authenticate, async (req, res) => {
 router.get("", authenticate, async (req, res) => {
   try {
     const registration = await Registration.find();
+    
     return res.status(200).send(registration);
     
   } catch (err) {

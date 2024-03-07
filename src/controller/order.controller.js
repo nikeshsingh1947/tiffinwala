@@ -7,6 +7,7 @@ const router = express.Router();
 //   try {
 //     const order = await Order.find().lean().exec();
 //     return res.status(200).send(order);
+
 //   } catch (err) {
 //     return res.status(500).send({ message: err.message });
 //   }

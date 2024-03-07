@@ -2,6 +2,7 @@ const express = require("express");
 const Menue = require("../models/menue.model");
 
 const router = express.Router();
+
 router.get("", async (req, res) => {
   try {
     const menue = await Menue.find().lean().exec();

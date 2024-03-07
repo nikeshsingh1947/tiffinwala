@@ -12,6 +12,7 @@ app.listen(port, async function () {
   try {
     await connect();
     console.log("listening 5000");
+    
   } catch (err) {
     console.log(err);
   }
