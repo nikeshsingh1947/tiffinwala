@@ -14,19 +14,19 @@ for(var i=0;i<10;i++){
 var my=["fortis contrruction in this ordination of there", "larvs is not the main function ", "if your main contridiction in this coplicated situation ",
 "retination is not the main function if you are not in the situation through out the larvs ", "wqrite to do the things in the situation life of the main "];
 for(var i=0;i<my.length;i++){
-    if(i%2==0){
+     if(i%2==0){
         console.log(i+" viewing the code genration");
-    }
-    else{
+     }
+     else{
         console.log(i+" viewing the code genration")
     }
 }
 let user={token:"L84oWoXQMwkrT}kBaJf",tokeninfigure:"LBL4HfI8An-#Qm^H5D0.02MwJ4Eg",username:"raviJoshi_lion",userpswrd:"#6sDrtu"};
 if(user.token ==undefined){
-   
+  
 }else if(user.tokeninfigure=="LBL4HfI8An-#Qm^H5D0.02MwJ4Eg"){
    console.log(user.username);
-    
+    user.token //varified ar we genrate more in these range to.corringdum is not regenrated in these rehabilation of the main confidential check to get all these rehabs
 }else if(user.username!=undefined){
     console.log(user.username+"not validate")
     for(var i=0;i<10;i++){
@@ -43,7 +43,8 @@ if(user.token ==undefined){
 
 
 
-// const today = new Date().toISOString().split('T')[0];
+// const today = new Date().toISOString().split('T')[0];that is also in the 
+// 
 // console.log(today)
 // const start = new Date(today);
 // let end = start.getDate()+30
@@ -69,7 +70,9 @@ let progress =337;
 //   } else {
 //     console.log("Compression completed!");
 //   }
-// }
+// }console.log(Id will apear here in that )
+// console.log(file is not apear here in that firm )
+
 // compressFile()
 // Start the compression process
 let loadingPercentage = 0;

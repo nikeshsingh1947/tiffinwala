@@ -8,7 +8,6 @@ const genrateToken=(user)=>{
     
 }
 
-
 const register= async (req,res)=>{
     try {
         let user=await User.findOne({email:req.body.email})

@@ -9,7 +9,6 @@ const genrateToken=(admin)=>{
 }
 
 
-
 const adminregister= async (req,res)=>{
     try {
         let admin=await Admin.findOne({email:req.body.email})
