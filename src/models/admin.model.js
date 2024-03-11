@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 
 const adminSchema = mongoose.Schema(
-    { name:{type:String, required:true},
+  { name:{type:String, required:true},
       email: { type: String, required: true, unique: true },
       password: { type: String, required: true }
     },
@@ -14,6 +14,7 @@ const adminSchema = mongoose.Schema(
 
   
   
+
   adminSchema.pre("save", function (next) {
     const hash = bcrypt.hashSync(this.password, 8);
     

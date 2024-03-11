@@ -10,6 +10,7 @@ router.post("", authenticate, async (req, res) => {
     return res.status(400).send({ message: error.message });
   }
 } ); 
+
 router.get("", authenticate, async (req, res) => {
   try {
     const registration = await Registration.find();

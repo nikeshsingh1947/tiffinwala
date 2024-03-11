@@ -68,7 +68,7 @@ const checkout = async (req, res) => {
     currency: "INR",
   };
   const order =  instance.orders.create(options,function(err, order) {
-    console.log(order);
+    console.log(order); 
     res.status(200).json({
       success: true,
       
