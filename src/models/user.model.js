@@ -11,6 +11,7 @@ const userSchema = mongoose.Schema(
     mobileNumber:{type:Number,requred:true},
     password: { type: String, required: true }
   },
+  
   {
     timestamps: true,
     versionKey: false,

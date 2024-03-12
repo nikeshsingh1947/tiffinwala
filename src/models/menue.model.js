@@ -13,6 +13,7 @@ const menueSchema = mongoose.Schema(
   },
   
   {
+    
     timestamps: true,
     versionKey: false,
   }

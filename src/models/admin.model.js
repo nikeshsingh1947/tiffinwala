@@ -22,6 +22,7 @@ const adminSchema = mongoose.Schema(
     return next();
   });
 
+  
   adminSchema.methods.checkPassword = function (password) {
     return bcrypt.compareSync(password, this.password);
   };
