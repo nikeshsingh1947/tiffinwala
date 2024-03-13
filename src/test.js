@@ -72,7 +72,7 @@ let progress =337;
 //   }
 // }console.log(Id will apear here in that )
 // console.log(file is not apear here in that firm )
-
+// 
 // compressFile()
 // Start the compression process
 let loadingPercentage = 0;
