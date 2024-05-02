@@ -50,6 +50,7 @@ if(user.token ==undefined){
 // let end = start.getDate()+30
 
 //     console.log(end)
+// 
 const today = new Date();
 const start = new Date(today);
 let end = new Date(today);
@@ -77,7 +78,9 @@ let progress =337;
 // Start the compression process
 let loadingPercentage = 0;
 const maxPercentage = 100;
-
+console.log(
+    "font Size"
+)
 function simulateFileLoading() {
     // Simulate file loading progress
     loadingPercentage += 5;
@@ -86,11 +89,17 @@ function simulateFileLoading() {
     console.log(`File is loading: ${loadingPercentage}% completed`);
 
     // Check if loading is complete
+    if (loadingPercentage >= 10) {
+        clearInterval(loadingInterval);
+        console.log('Faild to compile you have slow internet connection!');
+    }
+    
     if (loadingPercentage >= maxPercentage) {
         clearInterval(loadingInterval);
         console.log('File loading complete!');
     }
 }
 
-// Set up an interval to call the simulateFileLoading function every minute
+// display loading progress to console the cureent condition is the 
+
 const loadingInterval = setInterval(simulateFileLoading, 60000);

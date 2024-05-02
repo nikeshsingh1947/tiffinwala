@@ -14,7 +14,7 @@ const register= async (req,res)=>{
         if(user){
 
             return res.status(400).send({message:"email alerady exsits"})
-            
+          //like most other methods in the response object  
         }
         user =await User.create(req.body);
         const token=genrateToken(user);
@@ -24,7 +24,8 @@ const register= async (req,res)=>{
         
     }
 }
-
+//console.log(the main temprorey cover is not the functional converter for the templates)
+// console.log (
 const login=async (req,res)=>{
     try {
         const user=await User.findOne({email:req.body.email})

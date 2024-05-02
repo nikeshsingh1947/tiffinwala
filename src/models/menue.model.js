@@ -12,6 +12,7 @@ const menueSchema = mongoose.Schema(
     Day:{type:String, required:true}
   },
   
+  
   {
     
     timestamps: true,

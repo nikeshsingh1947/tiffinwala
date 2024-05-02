@@ -115,7 +115,7 @@ const paymentVerification = async (req, res) => {
   }
 };
 
-// Correct export using an object
+// Correct export using an object export  function in the following function in the validation for the curent fortune export functionality in the appling
 module.exports = {
   checkout,
   paymentVerification,
