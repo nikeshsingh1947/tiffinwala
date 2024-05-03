@@ -26,7 +26,7 @@ if(user.token ==undefined){
   
 }else if(user.tokeninfigure=="LBL4HfI8An-#Qm^H5D0.02MwJ4Eg"){
    console.log(user.username);
-    user.token //varified ar we genrate more in these range to.corringdum is not regenrated in these rehabilation of the main confidential check to get all these rehabs
+    user.token //varified ar we genrate more in these range to.
 }else if(user.username!=undefined){
     console.log(user.username+"not validate")
     for(var i=0;i<10;i++){
@@ -63,33 +63,29 @@ console.log(end.toISOString().split('T')[0]);
 
 let progress =337;
 
-// function compressFile() {
-//   if (progress <= 1923) {
-//     console.log(`File being compressed ${progress}/1923`);
-//     progress++;
-//     setTimeout(compressFile, 30000); // 5 minutes in milliseconds
-//   } else {
-//     console.log("Compression completed!");
-//   }
-// }console.log(Id will apear here in that )
-// console.log(file is not apear here in that firm )
-// 
-// compressFile()
-// Start the compression process
+function compressFile() {
+  if (progress <= 1923) {
+    console.log(`File being compressed ${progress}/1923`);
+    progress++;
+    setTimeout(compressFile, 50000); // 5 minutes in milliseconds
+  } else {
+    console.log("Compression completed!");
+  }
+}
 let loadingPercentage = 0;
 const maxPercentage = 100;
-console.log(
-    "font Size"
-)
+console.log("slow internet Connection detected")
 function simulateFileLoading() {
     // Simulate file loading progress
-    loadingPercentage += 5;
+    loadingPercentage += 1;
 
     // Output loading progress to console
-    console.log(`File is loading: ${loadingPercentage}% completed`);
+    
+    console.log(`File being compressed: ${loadingPercentage}% completed`);
 
+    
     // Check if loading is complete
-    if (loadingPercentage >= 10) {
+    if (loadingPercentage >= 43) {
         clearInterval(loadingInterval);
         console.log('Faild to compile you have slow internet connection!');
     }
